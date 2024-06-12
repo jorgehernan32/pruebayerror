@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="flex flex-1">
+    <header className="flex">
       <h1>Mi Aplicación en React con TypeScript</h1>
         <ul>
           <li><a href="/">Inicio</a></li>
