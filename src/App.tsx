@@ -4,7 +4,7 @@ import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <div className="flex flex-col text-black bg-teal-800 h-screen w-screen">
+    <div className="flex flex-col font-sans text-black bg-teal-800 h-screen w-screen">
       <header className="top-0">
         <Header />
       </header>
