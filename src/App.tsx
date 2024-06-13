@@ -13,9 +13,7 @@ const App = () => {
       <main className="flex-grow flex justify-center items-center">
         <h2 className="text-2xl font-bold mb-4 text-white">aquí irá el main</h2>
       </main>
-      <footer className="w-full">
         <Footer />
-      </footer>
     </div>
   );
 }
