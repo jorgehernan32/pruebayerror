@@ -13,7 +13,7 @@ return (
             </ul>
         </div>
         <div className="mx-10">
-            <h3 className="text-xl font-bold ">NAVEGACIÓN</h3>
+            <h3 className="text-xl font-semibold ">NAVEGACIÓN</h3>
             <ul className="text-sm ">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Acerca de</a></li>

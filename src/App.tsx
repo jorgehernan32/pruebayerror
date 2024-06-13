@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen font-bold text-black bg-teal-800">
+    <div className="flex flex-col min-h-screen font-semibold text-black bg-teal-800">
       <header className="w-full">
         <Header />
       </header>
