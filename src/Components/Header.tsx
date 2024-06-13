@@ -3,19 +3,13 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white shadow-lg">
-      <div className="container mx-auto px-6 py-3">
-        <nav className="flex justify-between items-center">
-          <div className="flex items-center">
-            <h1 className="text-xl font-bold text-gray-800">Mi Aplicación en React con TypeScript</h1>
-          </div>
-          <div className="flex space-x-4">
-            <a className="text-gray-800 hover:underline" href="/">Inicio</a>
-            <a className="text-gray-800 hover:underline" href="/about">Acerca de</a>
-            <a className="text-gray-800 hover:underline" href="/contact">Contacto</a>
-          </div>
-        </nav>
-      </div>
+    <header className="flex">
+      <h1>Mi Aplicación en React con TypeScript</h1>
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/about">Acerca de</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
     </header>
   );
 };
