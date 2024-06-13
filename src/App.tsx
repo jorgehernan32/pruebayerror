@@ -4,18 +4,16 @@ import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <div className="flex flex-col font-serif text-black bg-teal-800 h-screen w-screen">
-      <header className="top-0">
+    <div className="flex flex-col min-h-screen font-semibold text-black bg-teal-800">
+      <header className="w-full">
         <Header />
       </header>
-        <main className="flex justify-center items-center">
-          <h2 className="text-2xl font-bold mb-4">aquí irá el main</h2>
-        </main>
-      <footer className="bottom-0">
-      <Footer />
-
+      <main className="flex-grow flex justify-center items-center">
+        <h2 className="text-2xl font-bold mb-4 text-white">aquí irá el main</h2>
+      </main>
+      <footer className="w-full">
+        <Footer />
       </footer>
-      
     </div>
   );
 }
