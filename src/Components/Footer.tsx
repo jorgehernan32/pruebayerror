@@ -2,7 +2,7 @@
 const Footer = () => {
 return (
     <footer className="flex w-screen text-white">
-    <div className="flex w-full justify-between ">
+    <div className="flex w-full p-2 justify-between ">
         <div className="mx-10 ">
             <h3 className="text-xl font-bold ">NAVEGACIÓN</h3>
             <ul className="text-sm ">
